@@ -2,7 +2,7 @@
 leetcode problem link: `https://leetcode.com/problems/search-insert-position/description/`
 ## Solution (Python)
 
-here for O(log n) we use- **binary search algo**
+here for time complexity- O(log n) we use- **binary search algo**
 
 ```python
 left, right = 0, len(nums) - 1
