@@ -13,7 +13,7 @@ there are few approaches that i can think of:
 - two pointers ✔
 
 ```python
-
+def isPalindrome(s):
   clean = ''.join(char.lower() for char in s if char.isalnum())
   if not clean:
     return True
